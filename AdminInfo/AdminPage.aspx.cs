@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Data.Linq;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+=======
+using System.Drawing;
+using System.Linq;
+using System.Reflection;
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -18,6 +24,7 @@ namespace CSCI213.AdminInfo
         protected void Page_Load(object sender, EventArgs e)
         {
             dbcon = new LogonDataContext(conn);
+<<<<<<< HEAD
             if (!IsPostBack)
             {
                 var result = from item in dbcon.Instructors
@@ -30,13 +37,20 @@ namespace CSCI213.AdminInfo
                 DropDownList5.DataBind();   
             }
             dbcon = new LogonDataContext(conn);
+=======
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
 
             //show table of all members
             var member = (from x in dbcon.Members
                           select new
                           {
+<<<<<<< HEAD
                               x.MemberFirstName,
                               x.MemberLastName,
+=======
+                              x.MemberFirstName, 
+                              x.MemberLastName, 
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
                               x.MemberPhoneNumber,
                               x.MemberDateJoined
                           });
@@ -47,16 +61,25 @@ namespace CSCI213.AdminInfo
             var instructors = (from x in dbcon.Instructors
                                select new
                                {
+<<<<<<< HEAD
                                    x.InstructorFirstName,
+=======
+                                   x.InstructorFirstName, 
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
                                    x.InstructorLastName
                                });
             InstructorsGridView.DataSource = instructors;
             InstructorsGridView.DataBind();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             dbcon = new LogonDataContext(conn);
+<<<<<<< HEAD
             using (dbcon)
             {
                 var memeberId = (from x in dbcon.NetUsers
@@ -80,11 +103,24 @@ namespace CSCI213.AdminInfo
                 section.Member_ID = memeberId;
                 section.Instructor_ID = instructorId;
 
+=======
+
+            using (dbcon)
+            {
+                Member mem = new Member();
+                mem.MemberFirstName = TextBox2.Text;
+                mem.MemberLastName = TextBox3.Text;
+                mem.MemberPhoneNumber = TextBox4.Text;
+                mem.MemberDateJoined = DateTime.Parse(TextBox6.Text);
+                mem.MemberEmail = TextBox5.Text;
+
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
                 dbcon.Members.InsertOnSubmit(mem);
                 dbcon.SubmitChanges();
             }
         }
 
+<<<<<<< HEAD
         private int getInstructorId(DropDownList dtr, LogonDataContext db)
         {
            int id = Convert.ToInt32(dtr.SelectedValue); ;
@@ -98,6 +134,12 @@ namespace CSCI213.AdminInfo
         protected void Button3_Click(object sender, EventArgs e)
         {
             dbcon = new LogonDataContext(conn);
+=======
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            dbcon = new LogonDataContext(conn);
+
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
             using (dbcon)
             {
                 NetUser net = new NetUser();
@@ -107,6 +149,7 @@ namespace CSCI213.AdminInfo
 
                 dbcon.NetUsers.InsertOnSubmit(net);
                 dbcon.SubmitChanges();
+<<<<<<< HEAD
                 UpdateQuery();
             }
         }
@@ -214,5 +257,9 @@ namespace CSCI213.AdminInfo
             dbcon.SubmitChanges();
             UpdateQuery();
         }
+=======
+            }
+        }
+>>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
     }
 }
