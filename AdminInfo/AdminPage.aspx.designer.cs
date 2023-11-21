@@ -78,18 +78,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// TextBox7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
-
-        /// <summary>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox2 control.
         /// </summary>
         /// <remarks>
@@ -99,18 +87,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// TextBox8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
-
-        /// <summary>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox3 control.
         /// </summary>
         /// <remarks>
@@ -120,18 +96,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// TextBox9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
-
-        /// <summary>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox4 control.
         /// </summary>
         /// <remarks>
@@ -141,18 +105,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
 
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// TextBox10 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
-
-        /// <summary>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox5 control.
         /// </summary>
         /// <remarks>
@@ -180,7 +132,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
 
         /// <summary>
-<<<<<<< HEAD
         /// DropDownList5 control.
         /// </summary>
         /// <remarks>
@@ -190,8 +141,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
 
         /// <summary>
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -201,7 +150,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-<<<<<<< HEAD
         /// TextBox7 control.
         /// </summary>
         /// <remarks>
@@ -238,8 +186,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox10;
 
         /// <summary>
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// Button2 control.
         /// </summary>
         /// <remarks>
@@ -249,7 +195,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-<<<<<<< HEAD
         /// Button6 control.
         /// </summary>
         /// <remarks>
@@ -259,8 +204,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox11 control.
         /// </summary>
         /// <remarks>
@@ -270,7 +213,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox11;
 
         /// <summary>
-<<<<<<< HEAD
         /// Button4 control.
         /// </summary>
         /// <remarks>
@@ -289,8 +231,6 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.TextBox TextBox13;
 
         /// <summary>
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         /// TextBox12 control.
         /// </summary>
         /// <remarks>
@@ -298,7 +238,6 @@ namespace CSCI213.AdminInfo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox12;
-<<<<<<< HEAD
 
         /// <summary>
         /// Button5 control.
@@ -308,7 +247,5 @@ namespace CSCI213.AdminInfo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button5;
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
     }
 }

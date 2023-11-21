@@ -1,24 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="AdminPage.aspx.cs" Inherits="CSCI213.AdminInfo.AdminPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-<<<<<<< HEAD
-=======
-        .auto-style1 {
-            width: 386px;
-        }
-        .auto-style2 {
-            width: 593px;
-        }
-        .auto-style3 {
-            width: 82%;
-        }
-        .auto-style4 {
-            width: 502px;
-        }
-        .auto-style5 {
-            width: 547px;
-        }
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         .auto-style9 {
             width: 113px;
         }
@@ -38,7 +20,6 @@
             height: 26px;
             width: 120px;
         }
-<<<<<<< HEAD
         .auto-style15 {
             width: 245px;
         }
@@ -80,8 +61,6 @@
         .auto-style27 {
             margin-left: 40px;
         }
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -98,15 +77,9 @@
     </asp:GridView>
 </p>
     <p>
-<<<<<<< HEAD
         <strong>Add a new user:</strong></p>
     <p>
         Set Username:
-=======
-        Add a new user:</p>
-    <p>
-        set Username:
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
         <asp:TextBox ID="userName" runat="server"></asp:TextBox>
     </p>
     <p>
@@ -123,7 +96,6 @@
     <p>
         <asp:Button ID="Button3" runat="server" Height="44px" OnClick="Button3_Click" Text="Set User " Width="167px" />
 </p>
-<<<<<<< HEAD
     <div id="memberDiv" aria-hidden="False" class="auto-style20">
         <table class="auto-style17">
             <tr>
@@ -169,77 +141,11 @@
             <tr>
                 <td class="auto-style15">Add to Section:</td>
                 <td class="auto-style16">
-=======
-<p>
-    Add new member:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add new Instructor:</p>
-    <p>
-        <table class="auto-style3">
-            <tr>
-                <td class="auto-style1">Member ID:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">Instructor ID:</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Member First Name:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">Instructor First Name:</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Member Last Name:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">Instructor Last Name:</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Member Phone Number:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">Instructor Phone Number:</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Member Email:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Date Joined:</td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
-                </td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style1">Add to Section:</td>
-                <td class="auto-style4">
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
                     <asp:DropDownList ID="DropDownList3" runat="server" Height="17px" Width="163px">
                         <asp:ListItem>Karate Age-Uke</asp:ListItem>
                         <asp:ListItem>Karate Chudan-Uke</asp:ListItem>
                     </asp:DropDownList>
                 </td>
-<<<<<<< HEAD
             </tr>
             <tr>
                 <td class="auto-style15">Instructor name</td>
@@ -306,24 +212,6 @@
         <table class="auto-style11">
             <tr>
                 <td class="auto-style9">Member user name:</td>
-=======
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-            </tr>
-        </table>
-    </p>
-<p>
-    <asp:Button ID="Button1" runat="server" Height="58px" OnClick="Button1_Click" Text="Add New Member" Width="205px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="Button2" runat="server" Height="56px" Text="Add New Instructor" Width="195px" />
-    </p>
-    <p>
-        Delete a Member:</p>
-    <p>
-        <table class="auto-style11">
-            <tr>
-                <td class="auto-style9">Member ID:</td>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
                 </td>
@@ -331,7 +219,6 @@
         </table>
     </p>
     <p>
-<<<<<<< HEAD
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button4" runat="server" Height="43px" OnClick="Button4_Click" Text="Button" Width="189px" />
     </p>
@@ -341,9 +228,6 @@
     </p>
     <p>
         <strong>Delete an Instructor:</strong></p>
-=======
-        Delete an Instructor:</p>
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
     <p>
         <table class="auto-style12">
             <tr>
@@ -354,12 +238,9 @@
             </tr>
         </table>
     </p>
-<<<<<<< HEAD
     <p class="auto-style27">
         <asp:Button ID="Button5" runat="server" Height="43px" OnClick="Button5_Click" Text="Button" Width="189px" />
     </p>
-=======
->>>>>>> 6b903b5acca68c5033277b87940ea21e910cb441
     <p>
         &nbsp;</p>
     <p>
