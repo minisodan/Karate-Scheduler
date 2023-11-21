@@ -76,7 +76,7 @@ namespace CSCI213.AdminInfo
                 var memeberId = (from x in dbcon.NetUsers
                                  where x.UserName == userName.Text
                                  select x.UserID).Single();
-                                int instructorId = getInstructorId(DropDownList5, dbcon); 
+                                int instructorId = getInstructorId(DropDownList5.SelectedValue, dbcon); 
                 decimal sectionFee = Convert.ToInt32(TextBox14.Text);
                 Section section = new Section();
                 section.SectionName = DropDownList3.SelectedValue;
@@ -96,22 +96,15 @@ namespace CSCI213.AdminInfo
                 TextBox6.Text = DateTime.UtcNow.ToString();
                 mem.MemberEmail = TextBox5.Text;
 
-                int instructorId = getInstructorId(DropDownList5, dbcon); ;
-                Section section = new Section();
-                section.SectionName = DropDownList3.SelectedValue;
-                section.SectionFee = 0;
-                section.Member_ID = memeberId;
-                section.Instructor_ID = instructorId;
-
                 dbcon.Members.InsertOnSubmit(mem);
                 dbcon.Sections.InsertOnSubmit(section);
                 dbcon.SubmitChanges();
             }
         }
 
-        private int getInstructorId(DropDownList dtr, LogonDataContext db)
+        private int getInstructorId(String dtr, LogonDataContext db)
         {
-            int id = Convert.ToInt32(dtr.SelectedValue); ;
+            int id = Convert.ToInt32(dtr); ;
 
             var memeberId = (from x in dbcon.NetUsers
                              where x.UserID == id
