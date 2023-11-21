@@ -141,6 +141,15 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
 
         /// <summary>
+        /// TextBox14 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox14;
+
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -204,13 +213,13 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
-        /// TextBox11 control.
+        /// DropDownList6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
 
         /// <summary>
         /// Button4 control.
@@ -222,22 +231,13 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
-        /// TextBox13 control.
+        /// DropDownList7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox13;
-
-        /// <summary>
-        /// TextBox12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList7;
 
         /// <summary>
         /// Button5 control.

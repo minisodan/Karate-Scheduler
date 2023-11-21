@@ -155,6 +155,12 @@
                 </td>
             </tr>
             <tr>
+                <td class="auto-style15">Section price:</td>
+                <td class="auto-style16">
+                    <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
                 <td class="auto-style15">&nbsp;</td>
                 <td class="auto-style16">
     <asp:Button ID="Button1" runat="server" Height="58px" OnClick="Button1_Click" Text="Add New Member" Width="205px" />
@@ -164,6 +170,8 @@
     </div>
     <p>
         &nbsp;&nbsp;</p>
+    <p>
+        &nbsp;</p>
     <div aria-hidden="False">
         <table id="instructorDiv" class="auto-style22">
             <tr>
@@ -213,7 +221,9 @@
             <tr>
                 <td class="auto-style9">Member user name:</td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                    &nbsp;<asp:DropDownList ID="DropDownList6" runat="server" AutoPostBack="True">
+                    </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
             </tr>
         </table>
@@ -223,17 +233,14 @@
         <asp:Button ID="Button4" runat="server" Height="43px" OnClick="Button4_Click" Text="Button" Width="189px" />
     </p>
     <p>
-        Section ID:
-        <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
-    </p>
-    <p>
         <strong>Delete an Instructor:</strong></p>
     <p>
         <table class="auto-style12">
             <tr>
                 <td class="auto-style14">Instructor ID:</td>
                 <td class="auto-style13">
-                    <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+                    <asp:DropDownList ID="DropDownList7" runat="server" AutoPostBack="True">
+                    </asp:DropDownList>
                 </td>
             </tr>
         </table>
