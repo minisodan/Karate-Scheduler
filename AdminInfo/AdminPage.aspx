@@ -155,12 +155,15 @@
                 </td>
             </tr>
             <tr>
+<<<<<<< HEAD
                 <td class="auto-style15">Section price:</td>
                 <td class="auto-style16">
                     <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
+=======
+>>>>>>> master
                 <td class="auto-style15">&nbsp;</td>
                 <td class="auto-style16">
     <asp:Button ID="Button1" runat="server" Height="58px" OnClick="Button1_Click" Text="Add New Member" Width="205px" />
@@ -170,8 +173,11 @@
     </div>
     <p>
         &nbsp;&nbsp;</p>
+<<<<<<< HEAD
     <p>
         &nbsp;</p>
+=======
+>>>>>>> master
     <div aria-hidden="False">
         <table id="instructorDiv" class="auto-style22">
             <tr>
@@ -233,6 +239,13 @@
         <asp:Button ID="Button4" runat="server" Height="43px" OnClick="Button4_Click" Text="Button" Width="189px" />
     </p>
     <p>
+<<<<<<< HEAD
+=======
+        Section ID:
+        <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
+    </p>
+    <p>
+>>>>>>> master
         <strong>Delete an Instructor:</strong></p>
     <p>
         <table class="auto-style12">

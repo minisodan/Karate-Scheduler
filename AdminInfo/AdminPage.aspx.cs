@@ -97,10 +97,27 @@ namespace CSCI213.AdminInfo
                 TextBox6.Text = DateTime.UtcNow.ToString();
                 mem.MemberEmail = TextBox5.Text;
 
+                int instructorId = getInstructorId(DropDownList5, dbcon); ;
+                Section section = new Section();
+                section.SectionName = DropDownList3.SelectedValue;
+                section.SectionFee = 0;
+                section.Member_ID = memeberId;
+                section.Instructor_ID = instructorId;
+
                 dbcon.Members.InsertOnSubmit(mem);
                 dbcon.Sections.InsertOnSubmit(section);
                 dbcon.SubmitChanges();
             }
+        }
+
+        private int getInstructorId(DropDownList dtr, LogonDataContext db)
+        {
+            int id = Convert.ToInt32(dtr.SelectedValue); ;
+
+            var memeberId = (from x in dbcon.NetUsers
+                             where x.UserID == id
+                             select x.UserID).Single();
+            return memeberId;
         }
 
         private int getInstructorId(String dtr, LogonDataContext db)
