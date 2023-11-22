@@ -141,6 +141,18 @@ namespace CSCI213.AdminInfo
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
 
         /// <summary>
+<<<<<<< HEAD
+        /// TextBox14 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox14;
+
+        /// <summary>
+=======
+>>>>>>> master
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -196,6 +208,8 @@ namespace CSCI213.AdminInfo
 
         /// <summary>
         /// Button6 control.
+<<<<<<< HEAD
+=======
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -205,14 +219,18 @@ namespace CSCI213.AdminInfo
 
         /// <summary>
         /// TextBox11 control.
+>>>>>>> master
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
+<<<<<<< HEAD
+        /// DropDownList6 control.
+=======
         /// Button4 control.
         /// </summary>
         /// <remarks>
@@ -232,12 +250,35 @@ namespace CSCI213.AdminInfo
 
         /// <summary>
         /// TextBox12 control.
+>>>>>>> master
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
+
+        /// <summary>
+        /// Button4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
+
+        /// <summary>
+        /// DropDownList7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList7;
+=======
         protected global::System.Web.UI.WebControls.TextBox TextBox12;
+>>>>>>> master
 
         /// <summary>
         /// Button5 control.
